@@ -1,0 +1,117 @@
+<div data-ng-include="'partials/navbar.html'"></div>
+
+<style>
+	@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+	body {
+		padding: 60px 0px 60px;
+	}
+	.panel > .list-group .list-group-item:first-child {
+		/*border-top: 1px solid rgb(204, 204, 204);*/
+	}
+	@media (max-width: 767px) {
+		.visible-xs {
+			display: inline-block !important;
+		}
+		.block {
+			display: block !important;
+			width: 100%;
+			height: 1px !important;
+		}
+	}
+	#back-to-bootsnipp {
+		position: fixed;
+		top: 10px; right: 10px;
+	}
+
+	.c-list {
+		padding: 0px;
+		min-height: 44px;
+	}
+	.title {
+		display: inline-block;
+		font-size: 1.7em;
+		font-weight: bold;
+		padding: 5px 15px;
+	}
+	ul.c-controls {
+		list-style: none;
+		margin: 0px;
+		min-height: 44px;
+	}
+
+	ul.c-controls li {
+		margin-top: 8px;
+		float: left;
+	}
+
+	ul.c-controls li a {
+		font-size: 1.7em;
+		padding: 11px 10px 6px;   
+	}
+	ul.c-controls li a i {
+		min-width: 24px;
+		text-align: center;
+	}
+
+	ul.c-controls li a:hover {
+		background-color: rgba(51, 51, 51, 0.2);
+	}
+
+	.c-toggle {
+		font-size: 1.7em;
+	}
+
+	.name {
+		font-size: 1.7em;
+		font-weight: 700;
+	}
+
+	.c-info {
+		padding: 5px 10px;
+		font-size: 1.25em;
+	}
+
+	.th {
+		text-align:"center";
+	}
+</style>
+
+<div class="container">
+	<div class="row">
+		<div class="span12" data-ng-repeat="ranking in rankings">
+			<ul class="list-group" id="contact-list">
+				<li class="list-group-item">
+					<div class="col-xs-12 col-sm-3">
+						<img src="{{ranking.userId.profilePic}}" ng-alt="{{ranking.userId.name}}" class="img-responsive img-circle" width="100" height="100" />
+					</div> 
+					<div class="col-xs-12 col-sm-9">
+						<span class="name">{{ranking.userId.name}}</span><br/>
+						<table class="table table-bordered">
+							<thead>
+								<th><a tooltip="Total de Pontos" tooltip-placement="left">Pontos</a></th>
+								<th><a tooltip="Placares Exatos">Placar</a></th>
+								<th><a tooltip="Acerto do número de gols apenas do time vencedor">Vencedor</a></th>
+								<th><a tooltip="Acerto do número de gols apenas do time perdedor">Perdedor</a></th>
+								<th><a tooltip="Acerto da diferença de gols entre o vencedor e o perdedor">Dif.</a></th>
+								<th><a tooltip="Acerto do empate não exato">Empate</a></th>
+								<th><a tooltip="Acerto apenas do time vencedor" tooltip-placement="right">Time</a></th>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="center">{{ranking.pontos}}</td>
+									<td align="center">{{ranking.placarExato}}</td>
+									<td align="center">{{ranking.golVencedor}}</td>
+									<td align="center">{{ranking.golPerdedor}}</td>
+									<td align="center">{{ranking.diferencaVencPerd}}</td>
+									<td align="center">{{ranking.empateNaoExato}}</td>
+									<td align="center">{{ranking.timeVencedor}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="clearfix"></div>
+				</li>
+			</div>
+		</div>
+	</div>

@@ -1,0 +1,34 @@
+<div data-ng-include="'partials/navbar.html'"></div>
+<ul class="nav nav-tabs ">
+	<li ng-class="{active : fase==1}"><a href data-ng-click="setFase(1)">Primeira Rodada</a></li>
+	<li ng-class="{active : fase==2}"><a href data-ng-click="setFase(2)">Segunda Rodada</a></li>
+	<li ng-class="{active : fase==3}"><a href data-ng-click="setFase(3)">Terceira Rodada</a></li>
+	<li ng-class="{active : fase==8}"><a href data-ng-click="setFase(8)">Oitavas</a></li>
+	<li ng-class="{active : fase==4}"><a href data-ng-click="setFase(4)">Quartas</a></li>
+	<li ng-class="{active : fase==9}"><a href data-ng-click="setFase(9)">Semi</a></li>
+	<li ng-class="{active : fase==99}"><a href data-ng-click="setFase(99)">Finais</a></li>
+</ul>
+<br>
+
+<div class="row" ng-show="fase" data-ng-include="'partials/rodada.html'" onload="init(true)">
+</div>
+<div class="row">
+	<h2> Cadastro de Partida</h2>
+	<form class="form" data-ng-submit="salvarPartida()">
+		<table class="table table-bordered" align="center">
+			<tr>
+				<td style="height: 30px; text-align: right; font-size: 10pt;">
+					<input type="text" ng-model="time1" typeahead="time as time.nome for time in times | filter:$viewValue | limitTo:8" >
+					<img data-ng-src="/images/bandeiras/{{time1.imgNumber}}.png" data-ng-show="time1.imgNumber" style="vertical-align: middle;">
+				</td>
+				<td style="width: 120px; height: 30px; text-align: center; font-size: 8pt;">X
+					<br>
+					<td  style="height: 30px; text-align: left; font-size: 10pt;"><img data-ng-show="time2.imgNumber" src="/images/bandeiras/{{time2.imgNumber}}.png" title="{{time2.nome}}" 
+						style="vertical-align: middle;"> 
+						<input type="text" ng-model="time2" typeahead="time as time.nome for time in times | filter:$viewValue | limitTo:8"></td>
+					</tr>
+				</table>
+				<button class="btn btn-primary btn-block" type="submit">Salvar</button>
+				<br>
+			</form>
+		</div>

@@ -1,0 +1,43 @@
+<div ng-controller='RankingpartidamodalCtrl'>
+    <div infinite-scroll='partida.nextPage()' infinite-scroll-disabled='partida.busy' infinite-scroll-distance='1'>
+        <div ng-repeat='item in partidas.items'>
+           <table class="table table-bordered table-condensed">
+            <tr bindonce data-ng-repeat="partida in partidas">
+                <td class="col-sm-4 col-xs-4">
+                    <div class="row m-row">
+                        <div class="col-xs-12 col-sm-4 col-lg-4 col-sm-push-8 text-right">
+                            <div ng-class="'bandeira time{{partida.time1.imgNumber}}'"height="30"  width="30">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-lg-8 col-sm-pull-4 m-text text-right">
+                            <p bo-text="partida.time1.nome"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="col-sm-4 col-xs-4">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-6" >
+                            {{partida.resultado[0]}}
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-lg-6">
+                            {{partida.resultado[1]}}
+                        </div>
+                    </div>
+                </td> 
+                <td class="col-sm-4 col-xs-4">
+                    <div class="row m-row">
+                        <div class="col-xs-12 col-sm-4 col-lg-4 text-left">
+                            <div ng-class="'bandeira time{{partida.time2.imgNumber}}'"height="30"  width="30" >
+                            </div>
+                        </div> 
+                        <div class="col-xs-12 col-sm-8 col-lg-8 m-text text-left">
+                            <p bo-text="partida.time2.nome"></p>                     
+                        </div>                        
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div ng-show='partida.busy'>Carregando ...</div>
+</div>
+</div>

@@ -1,0 +1,17 @@
+<div data-ng-include="'partials/navbar.html'"></div>
+<div class="container">
+	<div class="row">
+		<ul class="nav nav-tabs">
+			<li ng-class="{active : fase==1}"><a href data-ng-click="setFase(1)">Primeira Rodada</a></li>
+			<li ng-class="{active : fase==2}"><a href data-ng-click="setFase(2)">Segunda Rodada</a></li>
+			<li ng-class="{active : fase==3}"><a href data-ng-click="setFase(3)">Terceira Rodada</a></li>
+			<li ng-class="{active : fase==8}"><a href data-ng-click="setFase(8)">Oitavas</a></li>
+			<li ng-class="{active : fase==4}"><a href data-ng-click="setFase(4)">Quartas</a></li>
+			<li ng-class="{active : fase==9}"><a href data-ng-click="setFase(9)">Semi</a></li>
+			<li ng-class="{active : fase==99}"><a href data-ng-click="setFase(99)">Finais</a></li>
+		</ul>
+		<br>
+	</div>
+	<div class="row" ng-show="fase" data-ng-include="'partials/rodada.html'" onload="init(false)" >
+	</div>
+</div>

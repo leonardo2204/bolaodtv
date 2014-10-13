@@ -1,0 +1,74 @@
+<style>
+
+	.m-con {
+		margin: 20px;
+	}
+
+	.m-text {
+		font-size: 16px;
+		padding-top:5px;
+		font-weight:bold;
+	}
+
+	.m-con td {
+		vertical-align:middle !important;
+	}
+
+	.hide-me{
+		display: none;
+	}
+
+	@media screen and (max-width:765px) {
+		.m-row > div {
+			text-align:center;
+		}
+	}
+
+</style>
+
+<div class="container m-con">
+	<form class="form" data-ng-submit="salvar()">
+		<div class="alert alert-success hide-me" name="alert-message" id="alert-message">Palpites salvos com sucesso !</div>
+
+		<table class="table table-bordered table-condensed">
+			<tr bindonce data-ng-repeat="partida in partidas">
+				<td class="col-sm-4 col-xs-4">
+					<div class="row m-row">
+						<div class="col-xs-12 col-sm-4 col-lg-4 col-sm-push-8 text-right">
+							<div ng-class="'bandeira time{{partida.time1.imgNumber}}'"height="30"  width="30">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-lg-8 col-sm-pull-4 m-text text-right">
+							<p bo-text="partida.time1.nome"></p>
+						</div>
+					</div>
+				</td>
+				<td class="col-sm-4 col-xs-4">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-lg-6" >
+							<input data-ng-if="eCadastroPartida" type="number" min="0" max="50" class="form-control" ng-model="partida.resultado[0]" />
+							<input data-ng-disabled="partidasEnabled" data-ng-if="!eCadastroPartida" type="number" min="0" max="50" class="form-control" ng-model="palpite[partida._id].placar[0]" />
+						</div>
+						<div class="col-xs-6 col-sm-6 col-lg-6">
+							<input data-ng-if="eCadastroPartida" type="number" min="0" max="50" class="form-control" ng-model="partida.resultado[1]"/>
+							<input data-ng-disabled="partidasEnabled" data-ng-if="!eCadastroPartida" type="number" min="0" max="50" class="form-control" ng-model="palpite[partida._id].placar[1]"/>
+						</div>
+					</div>
+					<!--<div class="text-center"><small>Rata</small></div> -->
+				</td> 
+				<td class="col-sm-4 col-xs-4">
+					<div class="row m-row">
+						<div class="col-xs-12 col-sm-4 col-lg-4 text-left">
+							<div ng-class="'bandeira time{{partida.time2.imgNumber}}'"height="30"  width="30" >
+							</div>
+						</div> 
+						<div class="col-xs-12 col-sm-8 col-lg-8 m-text text-left">
+							<p bo-text="partida.time2.nome"></p>                     
+						</div>                        
+					</div>
+				</td>
+			</tr>
+		</table>
+		<button class="btn btn-primary btn-block" type="submit" data-ng-disabled="!sendBtnEnabled">Salvar</button>        
+	</form>
+</div>

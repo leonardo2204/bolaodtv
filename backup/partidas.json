@@ -1,0 +1,48 @@
+{ "_id" : { "$oid" : "5387bcc2225b3b06a3659142" }, "fase" : 1, "jogoNum" : 1, "resultado" : [ 3, 1 ], "time1" : { "$oid" : "5386e7ba225b3b06a3659138" }, "time2" : { "$oid" : "5386e7d3225b3b06a3659139" } }
+{ "__v" : 0, "_id" : { "$oid" : "5387d2a7208f17f428c8b503" }, "fase" : 1, "jogoNum" : 4, "resultado" : [ 1, 0 ], "time1" : { "$oid" : "5386e817225b3b06a365913a" }, "time2" : { "$oid" : "5386e817225b3b06a365913b" } }
+{ "__v" : 0, "_id" : { "$oid" : "5387d991d69197902ae27586" }, "fase" : 1, "jogoNum" : 2, "resultado" : [ 1, 5 ], "time1" : { "$oid" : "5386e866225b3b06a365913c" }, "time2" : { "$oid" : "5386e866225b3b06a365913d" } }
+{ "__v" : 0, "_id" : { "$oid" : "5387da7b27f54fb425502918" }, "fase" : 1, "jogoNum" : 5, "resultado" : [ 3, 1 ], "time1" : { "$oid" : "5386e866225b3b06a365913e" }, "time2" : { "$oid" : "5386e866225b3b06a365913f" } }
+{ "__v" : 0, "_id" : { "$oid" : "5387dc012752ff402a0a7882" }, "fase" : 1, "jogoNum" : 3, "resultado" : [ 3, 0 ], "time1" : { "$oid" : "5386e866225b3b06a3659140" }, "time2" : { "$oid" : "5386e866225b3b06a3659141" } }
+{ "__v" : 0, "_id" : { "$oid" : "5387dc112752ff402a0a7883" }, "fase" : 1, "jogoNum" : 6, "resultado" : [ 1, 3 ], "time1" : { "$oid" : "5386ee50397c200413cb46c0" }, "time2" : { "$oid" : "5386ee69397c200413cb46c1" } }
+{ "__v" : 0, "_id" : { "$oid" : "5387dc1e2752ff402a0a7884" }, "fase" : 2, "jogoNum" : 7, "resultado" : [], "time1" : { "$oid" : "5386e7ba225b3b06a3659138" }, "time2" : { "$oid" : "5386e817225b3b06a365913a" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880ea52752ff402a0a7886" }, "fase" : 1, "jogoNum" : 8, "resultado" : [ 1, 2 ], "time1" : { "$oid" : "5386ee7d397c200413cb46c2" }, "time2" : { "$oid" : "5386ee88397c200413cb46c3" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880eae2752ff402a0a7887" }, "fase" : 1, "jogoNum" : 9, "resultado" : [ 2, 1 ], "time1" : { "$oid" : "5386ee8e397c200413cb46c4" }, "time2" : { "$oid" : "5386eec3397c200413cb46c5" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880eb52752ff402a0a7888" }, "fase" : 1, "jogoNum" : 10, "resultado" : [ 2, 1 ], "time1" : { "$oid" : "5386eee2397c200413cb46c7" }, "time2" : { "$oid" : "5386eee2397c200413cb46c8" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880ec02752ff402a0a7889" }, "fase" : 1, "jogoNum" : 11, "resultado" : [ 3, 0 ], "time1" : { "$oid" : "5386ef00397c200413cb46c9" }, "time2" : { "$oid" : "5386ef06397c200413cb46ca" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880ecf2752ff402a0a788a" }, "fase" : 1, "jogoNum" : 12, "resultado" : [ 2, 1 ], "time1" : { "$oid" : "5386ef3c397c200413cb46cb" }, "time2" : { "$oid" : "5386ef41397c200413cb46cc" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880ed82752ff402a0a788b" }, "fase" : 1, "jogoNum" : 13, "resultado" : [], "time1" : { "$oid" : "5386ef6d397c200413cb46ce" }, "time2" : { "$oid" : "5386ef79397c200413cb46cf" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880ee02752ff402a0a788c" }, "fase" : 1, "jogoNum" : 14, "resultado" : [], "time1" : { "$oid" : "5386ef7f397c200413cb46d0" }, "time2" : { "$oid" : "5386efb4397c200413cb46d1" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880ee82752ff402a0a788d" }, "fase" : 1, "jogoNum" : 15, "resultado" : [], "time1" : { "$oid" : "5386efd2397c200413cb46d3" }, "time2" : { "$oid" : "5386efe6397c200413cb46d4" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880ef32752ff402a0a788e" }, "fase" : 1, "jogoNum" : 16, "resultado" : [], "time1" : { "$oid" : "5386eff7397c200413cb46d6" }, "time2" : { "$oid" : "5386f031397c200413cb46d8" } }
+{ "__v" : 0, "_id" : { "$oid" : "53880efa2752ff402a0a788f" }, "fase" : 1, "jogoNum" : 17, "resultado" : [], "time1" : { "$oid" : "5386f04b397c200413cb46d9" }, "time2" : { "$oid" : "5386f05e397c200413cb46da" } }
+{ "__v" : 0, "_id" : { "$oid" : "538d48544030d24c2d97ff21" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386e866225b3b06a365913f" }, "time2" : { "$oid" : "5386e866225b3b06a365913d" } }
+{ "__v" : 0, "_id" : { "$oid" : "538d4ac33925849447909d6c" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386e866225b3b06a365913c" }, "time2" : { "$oid" : "5386e866225b3b06a365913e" } }
+{ "__v" : 0, "_id" : { "$oid" : "538d4b1433a1fb6c1d1f3673" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386e7d3225b3b06a3659139" }, "time2" : { "$oid" : "5386e817225b3b06a365913b" } }
+{ "__v" : 0, "_id" : { "$oid" : "53914f83def6fd0c230881f2" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386e866225b3b06a3659140" }, "time2" : { "$oid" : "5386ee8e397c200413cb46c4" } }
+{ "__v" : 0, "_id" : { "$oid" : "53914f90def6fd0c230881f3" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386ee50397c200413cb46c0" }, "time2" : { "$oid" : "5386ee7d397c200413cb46c2" } }
+{ "__v" : 0, "_id" : { "$oid" : "53914f9adef6fd0c230881f4" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386eec3397c200413cb46c5" }, "time2" : { "$oid" : "5386e866225b3b06a3659141" } }
+{ "__v" : 0, "_id" : { "$oid" : "53914fbedef6fd0c230881f5" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386ee88397c200413cb46c3" }, "time2" : { "$oid" : "5386ee69397c200413cb46c1" } }
+{ "__v" : 0, "_id" : { "$oid" : "53914fccdef6fd0c230881f6" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386eee2397c200413cb46c7" }, "time2" : { "$oid" : "5386ef00397c200413cb46c9" } }
+{ "__v" : 0, "_id" : { "$oid" : "53914fd4def6fd0c230881f7" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386ef06397c200413cb46ca" }, "time2" : { "$oid" : "5386eee2397c200413cb46c8" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915001def6fd0c230881f9" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386ef3c397c200413cb46cb" }, "time2" : { "$oid" : "5386ef7f397c200413cb46d0" } }
+{ "__v" : 0, "_id" : { "$oid" : "5391500cdef6fd0c230881fa" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386ef6d397c200413cb46ce" }, "time2" : { "$oid" : "5386efd2397c200413cb46d3" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915017def6fd0c230881fb" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386efb4397c200413cb46d1" }, "time2" : { "$oid" : "5386ef41397c200413cb46cc" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915024def6fd0c230881fc" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386eff7397c200413cb46d6" }, "time2" : { "$oid" : "5386f04b397c200413cb46d9" } }
+{ "__v" : 0, "_id" : { "$oid" : "5391502fdef6fd0c230881fd" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386f05e397c200413cb46da" }, "time2" : { "$oid" : "5386f031397c200413cb46d8" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915038def6fd0c230881fe" }, "fase" : 2, "resultado" : [], "time1" : { "$oid" : "5386efe6397c200413cb46d4" }, "time2" : { "$oid" : "5386ef79397c200413cb46cf" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915045def6fd0c230881ff" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386e866225b3b06a365913f" }, "time2" : { "$oid" : "5386e866225b3b06a365913c" } }
+{ "__v" : 0, "_id" : { "$oid" : "5391504ddef6fd0c23088200" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386e866225b3b06a365913d" }, "time2" : { "$oid" : "5386e866225b3b06a365913e" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915054def6fd0c23088201" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386e817225b3b06a365913b" }, "time2" : { "$oid" : "5386e7ba225b3b06a3659138" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915060def6fd0c23088202" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386e7d3225b3b06a3659139" }, "time2" : { "$oid" : "5386e817225b3b06a365913a" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915066def6fd0c23088203" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386ee88397c200413cb46c3" }, "time2" : { "$oid" : "5386ee50397c200413cb46c0" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915071def6fd0c23088204" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386ee69397c200413cb46c1" }, "time2" : { "$oid" : "5386ee7d397c200413cb46c2" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915078def6fd0c23088205" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386eec3397c200413cb46c5" }, "time2" : { "$oid" : "5386e866225b3b06a3659140" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915084def6fd0c23088206" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386e866225b3b06a3659141" }, "time2" : { "$oid" : "5386ee8e397c200413cb46c4" } }
+{ "__v" : 0, "_id" : { "$oid" : "5391508cdef6fd0c23088207" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386efb4397c200413cb46d1" }, "time2" : { "$oid" : "5386ef3c397c200413cb46cb" } }
+{ "__v" : 0, "_id" : { "$oid" : "53915095def6fd0c23088208" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386ef41397c200413cb46cc" }, "time2" : { "$oid" : "5386ef7f397c200413cb46d0" } }
+{ "__v" : 0, "_id" : { "$oid" : "5391509ddef6fd0c23088209" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386ef06397c200413cb46ca" }, "time2" : { "$oid" : "5386eee2397c200413cb46c7" } }
+{ "__v" : 0, "_id" : { "$oid" : "539150aadef6fd0c2308820a" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386eee2397c200413cb46c8" }, "time2" : { "$oid" : "5386ef00397c200413cb46c9" } }
+{ "__v" : 0, "_id" : { "$oid" : "539150afdef6fd0c2308820b" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386ef79397c200413cb46cf" }, "time2" : { "$oid" : "5386efd2397c200413cb46d3" } }
+{ "__v" : 0, "_id" : { "$oid" : "539150b7def6fd0c2308820c" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386efe6397c200413cb46d4" }, "time2" : { "$oid" : "5386ef6d397c200413cb46ce" } }
+{ "__v" : 0, "_id" : { "$oid" : "539150c3def6fd0c2308820d" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386f031397c200413cb46d8" }, "time2" : { "$oid" : "5386f04b397c200413cb46d9" } }
+{ "__v" : 0, "_id" : { "$oid" : "539150ccdef6fd0c2308820e" }, "fase" : 3, "resultado" : [], "time1" : { "$oid" : "5386f05e397c200413cb46da" }, "time2" : { "$oid" : "5386eff7397c200413cb46d6" } }
